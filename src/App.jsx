@@ -9,7 +9,7 @@ function App() {
 
   // const increment = useCallback(() => {
   //   setCount(count + 1);
-  // }, []);
+  // }, []); 
 
   const incrementWithDependencyList = useCallback(() => {
     setCount(count + 1);
